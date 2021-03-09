@@ -112,3 +112,19 @@ if(Sys.info()["nodename"] == "RIVM-SF1-0196"){
   dir_data_process <- "data/processing"
   dir_data_local <- file.path('data/')
 }
+
+## Another copy pasting
+if(Sys.info()["nodename"] == "RIVM-SF1-0196"){
+  #dir_data_spss <- "data/spss"
+  parent_path <- 'N:/2020 CoMixNL/comix_data_clean'
+  dir_data_spss <- file.path(parent_path, 'data/spss')
+  dir_data_clean <- file.path(parent_path, 'data/clean')
+  dir_data_archive <- file.path(parent_path, 'data/clean/archive')
+  dir_data_validate <- file.path(parent_path, 'data/validated')
+  dir_data_valid_archive <- file.path(parent_path, 'data/validated/archive')
+  ## Filepaths for temp processing files
+  dir_data_process <- "data/processing"
+  dir_data_local <- file.path('data/')
+}
+
+
