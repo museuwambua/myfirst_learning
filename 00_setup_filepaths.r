@@ -145,3 +145,4 @@ if(Sys.info()["nodename"] == "RIVM-SF1-0196"){
 
 ### just for testing about pulling
 a<-1
+b<-2
