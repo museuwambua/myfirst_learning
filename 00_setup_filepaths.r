@@ -143,3 +143,5 @@ if(Sys.info()["nodename"] == "RIVM-SF1-0196"){
   dir_data_local <- file.path('data/')
 }
 
+### just for testing about pulling
+a<-1
